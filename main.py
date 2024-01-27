@@ -16,9 +16,7 @@ def main():
 
     member_name = member_names[message.text][1]
     personal_message = f"""
-O mano DJ {member_name} é um cara talibã
-Virou o teu cunhado
-E tá pegando a tua irmã
+O meu amigo {member_name} é um cara maneiro!
   """
     bot.reply_to(message, personal_message)
     time.sleep(3)
